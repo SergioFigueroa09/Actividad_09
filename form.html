@@ -1,0 +1,53 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>ACTIVIDAD 09</title>
+        </head>
+        <body>
+            <h1>ACTIVIDAD 09 - SISTEMAS DISTRIBUIDOS</h1>
+            <h2>--Sergio Ramon Figueroa Lopez--</h2>
+            <h3>------->AGREGAR ELEMENTOS</h3>
+            <form action="/agregarMateria" method="POST" id="materiaform">
+                <label>Nombre de la nueva Materia en MAYUSCULAS:</label><br>
+                <input type="text" name="materia" value="">
+                <input type="submit" value="Agregar Materia">
+            </form>
+
+            <form action="/agregarAlumno" method="POST" id="alumnoform">
+                <label>Nombre del nuevo alumno en MAYUSCULAS:</label><br>
+                <input type="text" name="alumno" value="">
+                <input type="submit" value="Agregar Alumno">
+            </form>
+
+            <h3>------->CALIFICAR ALUMNO EN MATERIA</h3>
+            <form action="/agregarCalifMateria" method="POST" id="califmateriaform">
+                <label>Nombre de la Materia en MAYUSCULAS:</label><br>
+                <input type="text" name="materiaCalif" value=""><br>
+                <label>Nombre del alumn@ en MAYUSCULAS:</label><br>
+                <input type="text" name="alumnoCalif" value=""><br>
+                <label>Calificacion en la materia:</label><br>
+                <input type="text" name="califCalif" value=""><br>
+                <input type="submit" value="Calificar alumn@">
+            </form>
+            <h3>------->PROMEDIOS</h3>
+            <form action="/promedioAlumno" method="POST" id="alumnopromedioform">
+                <label>---REVISAR PROMEDIO DE UN ALUMNO---</label><br>
+                <label>Nombre del alumno en MAYUSCULAS:</label><br>
+                <input type="text" name="alumnoPromedio" value="">
+                <input type="submit" value="Ver Promedio">
+            </form>
+
+            <form action="/promedioGeneral" method="POST" id="promedioform">
+                <label>---REVISAR PROMEDIO GENERAL---</label><br>
+                <input type="submit" value="Ver Promedio General">
+            </form>
+
+            <form action="/promedioMateria" method="POST" id="materiapromedioform">
+                <label>---REVISAR PROMEDIO DE UNA MATERIA---</label><br>
+                <label>Nombre de la Materia en MAYUSCULAS:</label><br>
+                <input type="text" name="materiaPromedio" value="">
+                <input type="submit" value="Ver Promedio">
+            </form>
+
+        </body>
+    </html>
